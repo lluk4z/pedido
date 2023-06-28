@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    background-color: #fae6ee;
+}
+.tudo {
+    display: flex;
+
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    position: inherit;
+}
+.completo {
+    display: flex;
+    width: 100%;
+    font-family: 'Caprasimo', cursive;
+    font-family: 'Paytone One', sans-serif;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+}
+
+.box {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.hide {
+    display: none;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    animation-delay: 1000ms;
+    position: absolute;
+    align-items: center;
+}
+
+.heart {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    margin: 100px;
+    background: #49a7f6;
+    animation: pulse 1s infinite alternate;
+  }
+  
+  .square {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #000000;
+  }
+  
+  .circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    background: #000000;
+  }
+  
+  .top {
+    top: 100px;
+  }
+  
+  .left {
+    left: 100px;
+  }
+  
+  @keyframes pulse {
+    0%   {transform: scale(0.9) rotate(-135deg);}
+    100% {transform: scale(1.1) rotate(-135deg);}
+  }
+
